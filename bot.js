@@ -3,7 +3,7 @@ const client = new Discord.Client();
 console.log("3bker");
 client.on("message", message => {
 
-            if (message.content.startsWith("b")) {
+            if (message.content.startsWith("!bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
