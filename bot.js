@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("3bker");
 client.on("message", message => {
-OTEzMDA0NjMxMjg0NjU4MjI2.G0LECi.PoEyjH4W4J7r4T5_hwjupewCcCp4o7Kl7VE6os
+            
             if (message.content.startsWith("!bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
